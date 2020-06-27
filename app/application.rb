@@ -12,7 +12,7 @@ class Application
     #end
 
     (Time.now.hour.to_i >= 12).valid? ? resp.write "Good Afternoon!" : resp.write "Good Morning!"
-    
+
     resp.finish
   end
 end
